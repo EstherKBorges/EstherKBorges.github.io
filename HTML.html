@@ -23,6 +23,14 @@
       background-color: #333;
       color: #fff;
     }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+	  
     nav {
       margin: 10px;
     }
@@ -53,8 +61,8 @@
     }
 	nav {
       margin: 10px;
-    
 	}
+	  
     nav ul {
       list-style-type: none;
       margin: 0;
@@ -94,10 +102,11 @@
     }
 
     /* Estilos para dispositivos menores */
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
+    @media (max-width: 600px) {
+      main {
+        padding: 10px;
       }
+    }
       section {
         width: 100%;
       }
