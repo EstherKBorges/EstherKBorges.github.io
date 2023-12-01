@@ -22,11 +22,12 @@ h2 {
 /* Nas figuras: alterar a cor da fonte para um cinza-claro "lightgrey" */
 figure {
   text-align: center; /* Centralizar conteúdo */
-}
-
-figure img {
+  figure {
+  text-align: center; /* Centralizar conteúdo */
   background-color: whitesmoke;
 }
+}
+
 
 figure figcaption {
   color: lightgrey;
