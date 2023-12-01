@@ -1,6 +1,6 @@
-/* Estilizando a página toda: trocar a família da fonte de toda a página */
+/* Estilizando a página toda: trocar a família da fonte de toda a página: */
 body {
-  font-family: 'Nova Fonte', sans-serif; /* Substitua 'Nova Fonte' pela fonte desejada */
+  font-family: 'Tahoma', Geneva, sans-serif; /* trocando a fonte */
 }
 
 /* No título principal: alterar a cor da fonte para um cinza-escuro "#3D3D3D" */
@@ -12,8 +12,8 @@ h1 {
 
 /* Nos subtítulos: colocar uma borda na parte de baixo */
 h2 {
-  border-bottom: 2px solid #000; /* Adicione uma borda na parte inferior */
-  padding-bottom: 5px; /* Adicione espaço inferior para melhor visualização */
+  border-bottom: 2px solid #000; /* Borda na parte inferior */
+  padding-bottom: 5px; /* espaço inferior para melhor visualização */
 }
 
 /* Nas figuras: centralizar o conteúdo */
@@ -21,9 +21,8 @@ h2 {
 /* Nas figuras: alterar a cor da fonte para um cinza-claro "lightgrey" */
 figure {
   text-align: center; /* Centralizar conteúdo */
-  background-color: whitesmoke;
+  background-color: whitesmoke; /*cor de fundo*/
 }
-
 figure figcaption {
-  color: lightgrey;
+  color: lightgrey; /*cor da fonte*/
 }
